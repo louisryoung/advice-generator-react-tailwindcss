@@ -15,7 +15,6 @@ function App() {
       cache: 'no-cache'
     });
     const result = await response.json();
-    console.log(result.slip);
     setQuote({
       id: result.slip.id,
       advice: result.slip.advice
