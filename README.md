@@ -29,7 +29,6 @@ Users should be able to:
 
 ### Links
 
-- [Code Source](https://github.com/zougari47/advice-generator)
 - [Live Demo](https://generate-advice.netlify.app/)
 
 ## My process
@@ -66,9 +65,3 @@ fetch(`https://api.adviceslip.com/advice`, {
   .then((req) => req.json())
   .then((data) => setQuote(data.slip));
 ```
-
-## Author
-
-- Frontend Mentor - [@zougari47](https://www.frontendmentor.io/profile/zougari47)
-- Twitter - [@zougari47](https://www.twitter.com/zougari47)
-- codepen - [@zougari47](https://codepen.io/zougari47)
